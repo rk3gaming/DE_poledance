@@ -103,8 +103,6 @@ changeAnims = function(up)
         animNumber = 1
     end
 
-    print(animNumber)
-
     SetEntityCoords(PlayerPedId(), coords)
     LoadDict(Config.Anims[animNumber].dict)
     TaskPlayAnim(PlayerPedId(), Config.Anims[animNumber].dict, Config.Anims[animNumber].clip, 8.0, -8.0, -1, 1, 0, false, false, false)
