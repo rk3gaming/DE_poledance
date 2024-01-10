@@ -63,10 +63,6 @@ CreateThread(function()
     end
 end)
 
-RegisterCommand('fix', function()
-    DoScreenFadeIn(800)
-end)
-
 RegisterNetEvent('DE_poledance:startStrip')
 AddEventHandler('DE_poledance:startStrip', function()
     isStripping = true
